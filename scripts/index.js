@@ -10,7 +10,7 @@ const items = [
 
 const root = document.querySelector('.main');
 
-const createItem = (text) => new TodoListItem(text, todoList.addItem);
+const createItem = (text) => {new TodoListItem(text, todoList.addItem)};
 
 const todoList = new TodoList(createItem);
 
